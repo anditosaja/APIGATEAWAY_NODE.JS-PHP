@@ -28,6 +28,7 @@ Masuk ke folder project, lalu install dependency:
 npm install express http-proxy-middleware
 
 ## Struktur Folder
+```bash
 api-gateway/
 │
 ├── gateway.js
@@ -36,7 +37,7 @@ api-gateway/
 │
 └── service2/
     └── service2.php
-    
+```
 ## Konfigurasi & Menjalankan Server
 1. Jalankan Service 1 (Node.js)
 - cd service1
