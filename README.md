@@ -39,15 +39,15 @@ api-gateway/
     
 ## Konfigurasi & Menjalankan Server
 1. Jalankan Service 1 (Node.js)
-cd service1
-node service1.js
+- cd service1
+- node service1.js
 
 Berjalan di:
 http://localhost:3001
 
 2. Jalankan Service 2 (PHP)
-cd service2
-php -S localhost:3002 service2.php
+- cd service2
+- php -S localhost:3002 service2.php
 
 Berjalan di:
 http://localhost:3002
