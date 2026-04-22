@@ -24,8 +24,9 @@ Pastikan sudah terinstall:
 ## Instalasi
 
 Masuk ke folder project, lalu install dependency:
-
+```bash
 npm install express http-proxy-middleware
+```
 
 ## Struktur Folder
 ```bash
@@ -42,21 +43,27 @@ api-gateway/
 ```
 ## Konfigurasi & Menjalankan Server
 1. Jalankan Service 1 (Node.js)
+``` bash
 - cd service1
 - node service1.js
+```
 
 Berjalan di:
 http://localhost:3001
 
 2. Jalankan Service 2 (PHP)
+``` bash
 - cd service2
 - php -S localhost:3002 service2.php
+```
 
 Berjalan di:
 http://localhost:3002
 
 3. Jalankan API Gateway
+``` bash
 node gateway.js
+```
 
 Berjalan di:
 http://localhost:3000
@@ -91,9 +98,10 @@ Gunakan:
 2. Browser (GET)
 
 Contoh:
-
+``` bash
 GET http://localhost:3000/mahasiswa/api/mahasiswa
 GET http://localhost:3000/produk/api/produk
+```
 
 ⚠️ Notes Penting
 1. Semua request harus melalui API Gateway (port 3000)
