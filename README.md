@@ -65,20 +65,22 @@ Endpoint Gateway	dialihkan ke
   
 ## ENDPOINT API
 1. Service 1: Mahasiswa (/mahasiswa)
-   Method	  Endpoint	                        Deskripsi
-   - GET	  http../mahasiswa/api/mahasiswa	  Ambil semua mahasiswa
-   - GET	  /mahasiswa/api/mahasiswa/	        Ambil mahasiswa berdasarkan ID
-   - POST	  /mahasiswa/api/mahasiswa	        Tambah mahasiswa
-   - PUT	  /mahasiswa/api/mahasiswa/	        Update mahasiswa
-   - DELETE	/mahasiswa/api/mahasiswa/	      Hapus mahasiswa
+   |Method|	  Endpoint	                  |      Deskripsi                  |
+   |------|-------------------------------|---------------------------------|
+   |GET	  |http../mahasiswa/api/mahasiswa |	 Ambil semua mahasiswa          |
+   |GET	  |/mahasiswa/api/mahasiswa/	  |  Ambil mahasiswa berdasarkan ID |
+   |POST  |/mahasiswa/api/mahasiswa	      |  Tambah mahasiswa               |
+   |PUT	  |/mahasiswa/api/mahasiswa/	  |  Update mahasiswa               |
+   |DELETE|/mahasiswa/api/mahasiswa/	  |  Hapus mahasiswa                |
 
-2. Service 2: Produk (/produk)
-   Method	  Endpoint	            Deskripsi
-   - GET	  /produk/api/produk	  Ambil semua produk
-   - GET	  /produk/api/produk/	  Ambil produk berdasarkan ID
-   - POST	  /produk/api/produk	  Tambah produk
-   - PUT	  /produk/api/produk/	  Update produk
-   - DELETE	/produk/api/produk/	Hapus produk
+3. Service 2: Produk (/produk)
+   |Method|	  Endpoint	      |     Deskripsi               |
+   |------|-------------------|-----------------------------|
+   |GET	  |/produk/api/produk | Ambil semua produk          |
+   |GET	  |/produk/api/produk/|	Ambil produk berdasarkan ID |
+   |POST  |/produk/api/produk |	Tambah produk               |
+   |PUT	  |/produk/api/produk/|	Update produk               |
+   |DELETE|/produk/api/produk/|	Hapus produk                |
  
 ## Testing API
 Gunakan:
