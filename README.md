@@ -36,7 +36,7 @@ api-gateway/
 │   └── service1.js
 │
 └── service2/
-    └── service2.php
+|   └── service2.php
 │
 └── package.json
 ```
