@@ -37,6 +37,8 @@ api-gateway/
 │
 └── service2/
     └── service2.php
+│
+└── package.json
 ```
 ## Konfigurasi & Menjalankan Server
 1. Jalankan Service 1 (Node.js)
