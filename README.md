@@ -115,6 +115,11 @@ GET http://localhost:3000/produk/api/produk
 4. CRUD pada masing-masing service
 5. Integrasi Node.js dan PHP dalam satu sistem
 
+## Screenshot pada Postman
+
+[Screenshot Postman_Node.js+PHP.pdf](https://github.com/user-attachments/files/26975130/Screenshot.Postman_Node.js%2BPHP.pdf)
+
+
 ## Author
 - Nama: Andito Dwi Wicaksono
 - NIM: 2410511115
