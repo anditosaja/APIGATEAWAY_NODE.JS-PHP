@@ -105,6 +105,6 @@ GET http://localhost:3000/produk/api/produk
 5. Integrasi Node.js dan PHP dalam satu sistem
 
 ## Author
-Nama: Andito Dwi Wicaksono
-NIM: 2410511115
-Mata Kuliah: Pembangunan Perangkat Lunak Berorientasi Service (SE-2)
+- Nama: Andito Dwi Wicaksono
+- NIM: 2410511115
+- Mata Kuliah: Pembangunan Perangkat Lunak Berorientasi Service (SE-2)
